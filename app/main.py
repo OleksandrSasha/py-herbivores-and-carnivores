@@ -23,7 +23,7 @@ class Animal:
         self.health -= damage
         if self.health <= 0:
             Animal.alive.remove(self)
-        return self.health
+            return self.health
 
 
 class Herbivore(Animal):
